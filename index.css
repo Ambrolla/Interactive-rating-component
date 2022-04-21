@@ -1,0 +1,149 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: (213, 19%, 18%)
+}
+
+body {
+  background-color: hsl(218, 12%, 8%);
+  color: white;
+  text-align: left;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  row-gap: 10px;
+  column-gap: 20px;
+  text-align: left;
+  border-radius: 25px;
+  width: 380px;
+  height: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 550px;
+  margin-bottom: 300px;
+  margin-top: 150px;
+}
+
+.star-img{
+  display: flex;
+  align-items: flex-start;
+  position:relative;
+  right: 140px;
+  top: 15px;
+  background-color: hsl(218, 14%, 35%);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+  text-align: center;
+  color: white;
+  border-color: hsl(218, 14%, 35%);
+  padding: 10px;
+  border-radius: 35px;
+  margin-left: 25px;
+  margin-right: 10px;
+  width: 330px;
+  font-size: 15px;
+}
+
+
+.rating-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nmbr-box{
+  display: table-cell;
+  width: 25px;
+  height: 25px;
+  margin: 9px;
+  padding: 12px;
+  font-size: 20px;
+  background-color: hsl(218, 14%, 35%);
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: hsl(217, 12%, 63%);
+}
+
+p {
+  font-size: 15px;
+}
+
+.heading {
+  margin-left: 20px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.paragraph {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+/* SUBMIT STATE */
+
+.thank-you-img{
+  margin-left: 110px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.thank-you-heading {
+  margin-bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.selected-paragraph {
+background-color: hsl(218, 14%, 35%);
+color:orange;
+text-align: center;
+vertical-align: middle;
+padding: 4px;
+width: 200px;
+border-radius: 25px;
+margin-left: 85px;
+}
+
+.thank-you-paragraph{
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+/* HOVER */
+@media only screen and (min-width: 600px){
+button:hover {
+  background-color: white;
+  color: orange;
+}
+
+.nmbr-box:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+}
+/* MOBILE Version */
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-left: 50px;
+  }
+}
